@@ -5,6 +5,7 @@ import navbar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import tasktracker from '../assets/portfolio/tasktracker.jpg';
 
 
 
@@ -13,29 +14,16 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
-        },
-        {
-            id: 2,
-            src: reactParallax
-        },
-        {
-            id: 3,
-            src: navbar
-        },
-        {
-            id: 4,
-            src: reactSmooth
-        },
-        {
-            id: 5,
-            src: installNode
-        },
-        {
-            id: 6,
-            src: reactWeather
+            src: tasktracker,
+            demoLink: 'https://tasktracker.pythonanywhere.com/login',
+            codeLink: 'https://github.com/allengarcia04/TaskTracker'
         },
     ]
+
+    const handleClick = (url) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
         <div className="max-w-screen lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -46,12 +34,12 @@ const Portfolio = () => {
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {
-                portfolios.map(({id, src}) => (
+                portfolios.map(({id, src, demoLink, codeLink}) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                     <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
                     <div className="flex item-center justify-center">
-                        <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                        <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                        <button onClick={() => handleClick(demoLink)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
+                        <button onClick={() => handleClick(codeLink)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
                     </div>
                 </div>
                 ))
