@@ -2,12 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
+    <div name="about" className=" w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white md:h-screen">
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
+            <div className="mt-10 pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
             </div>
-            <p className="text-xl mt-10">
+            <p className="text-xl mt-1">
             Hello, I'm Allen Garcia, I'm a software engineer based in Melbourne, Australia. I am passionate about combining business acumen with technology to create impactful solutions. Currently pursuing a Master's Degree in Business Information Systems at Torrens University Australia. With a strong foundation in software engineering and business analysis, I have extensive experience in developing efficient systems, and implementing robust cybersecurity measures.
 
             </p>
