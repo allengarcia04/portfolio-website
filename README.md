@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# My Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website, a showcase of my skills, projects, and experience as a software engineer.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This website is designed to highlight my professional journey, technical skills, and personal projects. It includes sections such as About Me, Portfolio, Technical Skills and Contact, all aimed at providing a comprehensive overview of my capabilities and experiences.
 
-### `npm start`
+### Motivation
+The primary motivation behind creating this portfolio website is to have a centralized platform where I can present my work, achievements, and technical skills to potential employers, collaborators, and clients. It serves as a dynamic resume that not only lists my qualifications but also demonstrates my ability to build and maintain a sophisticated web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Goal
+The goal is to provide an engaging and informative user experience that effectively communicates my background in software engineering. The website is also intended to reflect my passion for technology and my commitment to continuous learning and professional development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quick Start
 
-### `npm test`
+To get started with running this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/allengarcia04/portfolio-website.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the project directory:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd portfolio-website
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install the dependencies:**
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start the development server:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Your portfolio website should now be running on [http://localhost:3000](http://localhost:3000).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+### Running the Project
+After setting up the project using the Quick Start guide, you can start the development server and view the website in your local browser. The main components of the website include:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Home**: An introduction and navigation to different sections.
+- **About**: Details about my background, education, and professional journey.
+- **Portfolio**: Showcases the projects I have worked on with links to their demos and source codes.
+- **Technical Skills**: Highlight Technologies I've Worked With 
+- **Contact**: A form to get in touch with me.
 
 ### Deployment
+To deploy the website, you can use platforms like Vercel, Netlify, or GitHub Pages. Ensure you build the project before deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run build
+```
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**:: A utility-first CSS framework for styling.
+- **JavaScript**:: The core programming language for web development.
+- **HTML & CSS**:: Markup and styling languages for structuring and designing the web pages.
+- **GitHub**:: For version control and hosting the repository.
