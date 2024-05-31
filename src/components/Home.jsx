@@ -9,7 +9,7 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                    I'm a Software Developer
+                    I'm a Software Engineer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">
                 Dedicated to crafting scalable, beautiful web applications with exceptional user experiences. Enthusiastic about working with technologies like React, Tailwind CSS, and Python.
