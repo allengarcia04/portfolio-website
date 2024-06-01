@@ -47,11 +47,11 @@ Your portfolio website should now be running on [http://localhost:3000](http://l
 ### Running the Project
 After setting up the project using the Quick Start guide, you can start the development server and view the website in your local browser. The main components of the website include:
 
-- **Home**: An introduction and navigation to different sections.
-- **About**: Details about my background, education, and professional journey.
-- **Portfolio**: Showcases the projects I have worked on with links to their demos and source codes.
-- **Technical Skills**: Highlight Technologies I've Worked With 
-- **Contact**: A form to get in touch with me.
+- Home: An introduction and navigation to different sections.
+- About: Details about my background, education, and professional journey.
+- Portfolio: Showcases the projects I have worked on with links to their demos and source codes.
+- Technical Skills: Highlight Technologies I've Worked With 
+- Contact: A form to get in touch with me.
 
 ### Deployment
 To deploy the website, you can use platforms like Vercel, Netlify, or GitHub Pages. Ensure you build the project before deployment:
@@ -62,7 +62,7 @@ npm run build
 
 ## Technologies Used
 - **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**:: A utility-first CSS framework for styling.
-- **JavaScript**:: The core programming language for web development.
-- **HTML & CSS**:: Markup and styling languages for structuring and designing the web pages.
-- **GitHub**:: For version control and hosting the repository.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **JavaScript**: The core programming language for web development.
+- **HTML & CSS**: Markup and styling languages for structuring and designing the web pages.
+- **GitHub**: For version control and hosting the repository.
