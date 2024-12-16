@@ -1,6 +1,7 @@
 import React from 'react'
 import tasktracker from '../assets/portfolio/tasktracker.jpg';
 import cryptotracker from '../assets/portfolio/cryptotracker.jpg';
+import productlandingpage from '../assets/portfolio/productlandingpage.jpg';
 
 
 
@@ -18,6 +19,12 @@ const Portfolio = () => {
             src: cryptotracker,
             demoLink: 'https://papaya-truffle-ab02a5.netlify.app/',
             codeLink: 'https://github.com/allengarcia04/crypto-tracker-react-api'
+        },
+        {
+            id: 3,
+            src: productlandingpage,
+            demoLink: 'https://www.assessmentchampions.com/',
+            codeLink: 'https://github.com/allengarcia04/assessment-champions'
         },
     ]
 
