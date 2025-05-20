@@ -8,12 +8,12 @@ const About = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
             </div>
             <p className="text-xl mt-1">
-            Hello, I'm Allen Garcia, I'm a software engineer based in Melbourne, Australia. I am passionate about combining business acumen with technology to create impactful solutions. Currently pursuing a Master's Degree in Business Information Systems at Torrens University Australia. With a strong foundation in software engineering and business analysis, I have extensive experience in developing efficient systems, and implementing robust cybersecurity measures.
+            Hello, I’m Allen Garcia — an IT Analyst based in Melbourne, Australia, with a strong focus on business and data analysis. I’m passionate about bridging business needs with technical solutions through data-driven insights, systems thinking, and user-centered design. I hold an ECBA certification, an AWS Cloud certification, and a Master’s in Business Information Systems.
 
             </p>
 
             <br />
-            <p className="text-xl"> I thrive on working with technologies like Python, JavaScript, React, Tailwind CSS, and more. I enjoy tackling coding projects in my free time. As a fitness enthusiast, I believe in maintaining a healthy balance between physical activity and my tech pursuits. I am eager to contribute to a dynamic team environment, driving innovative solutions and making a meaningful impact.</p>
+            <p className="text-xl"> I bring hands-on experience in digital transformation, stakeholder engagement, user acceptance testing, system optimization, and software development. I've led projects that improved operational efficiency across fintech and education environments. My technical toolkit includes Python, SQL, Power BI, Jira, React, and AWS — empowering me to deliver impactful solutions that drive measurable business value.</p>
 
         </div>
 

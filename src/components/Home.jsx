@@ -9,10 +9,10 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                    I'm a Software Engineer
+                    I'm Allen The Analyst
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                Dedicated to crafting scalable, beautiful web applications with exceptional user experiences. Enthusiastic about working with technologies like React, Tailwind CSS, and Python.
+                 I specialize in bridging business needs and technical solutions through data analysis, systems thinking, and process optimization — all driven by my passion for solving real-world problems with smart systems and meaningful data. Whether it's streamlining workflows or enhancing decision-making, I thrive at the intersection of people, process, and technology.
                 </p>
 
                 <div>
